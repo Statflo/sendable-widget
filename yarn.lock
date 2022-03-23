@@ -1609,6 +1609,26 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@statflo/textkit-widget-events@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@statflo/textkit-widget-events/-/textkit-widget-events-1.2.0.tgz#7735362dd64b9729cefd8a8081e531e570ed2bf8"
+  integrity sha512-IFk5OjsHTwoCDD02S9SEaxZmYq5HH99tcDxp51WxdQJ12BI2q75IFo6A6m1OVRZCllEg5zsk2uADw3IqNMih9A==
+  dependencies:
+    "@statflo/widget-sdk" "^0.3.2"
+    iframe-resizer "^4.3.2"
+
+"@statflo/textkit-widget-sdk-react@^1.1.1":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@statflo/textkit-widget-sdk-react/-/textkit-widget-sdk-react-1.2.0.tgz#3129e552d4b159abc8bac2f93927e9bec98a040d"
+  integrity sha512-a3DsiBiDH6YwXJKQoOtVc0zb6CFo4fQaFjttztpzcpgFFlNLgIPLmLPZR78sGD2gDekBvaSZHG0R7FSOXshNXw==
+  dependencies:
+    "@statflo/textkit-widget-events" "^1.2.0"
+
+"@statflo/widget-sdk@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@statflo/widget-sdk/-/widget-sdk-0.3.2.tgz#60cb142941ad64058645eda122a2babdbaeb903d"
+  integrity sha512-RVLL9PhLCL5Eu1kzUMbO0ZuMVklxLzRAyGEC5kQiN0LoEzGtsTupNsA6kYVxMubRSs3eF/mdqcEJwU2wYl2W3A==
+
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz#ee34985952ca21558ab0d952f00298ad2190c053"
@@ -4971,6 +4991,11 @@ identity-obj-proxy@^3.0.0:
   integrity sha1-lNK9qWCERT7zb7xarsN+D3nx/BQ=
   dependencies:
     harmony-reflect "^1.4.6"
+
+iframe-resizer@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/iframe-resizer/-/iframe-resizer-4.3.2.tgz#42dd88345d18b9e377b6044dddb98c664ab0ce6b"
+  integrity sha512-gOWo2hmdPjMQsQ+zTKbses08mDfDEMh4NneGQNP4qwePYujY1lguqP6gnbeJkf154gojWlBhIltlgnMfYjGHWA==
 
 ignore@^5.1.8, ignore@^5.2.0:
   version "5.2.0"
